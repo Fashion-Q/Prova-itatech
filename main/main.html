@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itatech</title>
+    <meta name="author" content="Verelindo">
+    <meta name="description" content="Prova de Itatech | Verelindo">
+    <meta name="robots" content="follow,index">
+    
+    <Link rel="stylesheet" href="1divTopo.css"/>
+    <Link rel="stylesheet" href="2divBannerTodo.css"/>
+    <Link rel="stylesheet" href="3tabelas.css"/>
+    <Link rel="stylesheet" href="4divFinal&Footer.css"/>
+    <Link rel="stylesheet" href="efeito.css"/>
+</head>
+
+<body>
+
+    <!--
+        aqui fica a divisao da logo, search e "botao" Login
+    -->
+
+    <div class="divTopo">
+        <img class="logo1" src="../imagens/main/2.png" alt="itatech logo">
+
+        <input class="buscar" type="text" placeholder="    O que deseja buscar?">
+        
+        <a class="login" href="../login/login.html">
+            <p class="loginText">Login</p>
+        </a>
+    </div>
+
+    <!--
+        essa div tem o banner como background e tudo dentro dela,
+        como os textos e botao
+    -->
+
+    <div class="bannerTodo">
+        <div class="locThings">
+            <span class="textoBanner s1Banner"><strong>Fevereiro Promocional</strong></span><br>
+            <span class="textoBanner s2Banner"><strong>Produtos selecionados com 33% de desconto</strong></span><br><br>
+    
+            <button class="VerConsoles" type="button" onclick="alert('Estou aprendendo!');">
+                <p class="VerConsolesText">Ver Consoles</p>
+            </button>
+        </div>
+    </div><br><br>
+
+    <!--
+        Infelizmente eu fiz da forma que deu pra aprender a fazer e fiz
+        usando "tabela", basicamente eu coloquei a imagem como o "header"
+        e os componentes dela seria o nome, preço e a Ancora pra ver o produto
+    -->
+
+    <nav class="navAposBanner">
+        <h2>
+            Star Wars
+        </h2>
+        <h4>
+            <a class="verProduto" href="../detalhes/detalhe1.html" >Ver todos ➜</a>
+        </h4>
+    </nav>
+
+    <table> 
+        
+        <th><img src="../imagens/starwars/1.png" alt=""></th>
+        <th><img src="../imagens/starwars/2.png" alt=""></th>
+        <th><img src="../imagens/starwars/3.png" alt=""></th>
+        <th><img src="../imagens/starwars/4.png" alt=""></th>
+        <th><img src="../imagens/starwars/5.png" alt=""></th>
+        <th><img src="../imagens/starwars/6.png" alt=""></th>
+        <tr class="nomes">
+            <td>White Vader</td>
+            <td>Boy Vader</td>
+            <td>Yoda tímido</td>
+            <td>Branco Vader</td>
+            <td>Pequeno Yoda</td>
+            <td>Dartkest Vader</td>
+        </tr>
+        <tr class="preco">
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+        </tr>
+        <tr>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+        </tr>
+    </table>
+
+
+    <br><br>
+    <nav class="navAposBanner">
+        <h2>
+            Consolas
+        </h2>
+        <h4>
+            <a class="verProduto" href="../detalhes/detalhe1.html" >Ver todos ➜</a>
+        </h4>
+    </nav>
+
+    <!--
+        aqui vai ficar os itens de consoles
+    -->
+
+    <table> 
+        <th><img src="../imagens/consoles/1.png" alt=""></th>
+        <th><img src="../imagens/consoles/2.png" alt=""></th>
+        <th><img src="../imagens/consoles/3.png" alt=""></th>
+        <th><img src="../imagens/consoles/4.png" alt=""></th>
+        <th><img src="../imagens/consoles/5.png" alt=""></th>
+        <th><img src="../imagens/consoles/6.png" alt=""></th>
+        <tr class="nomes">
+            <td>C. x-Box</td>
+            <td>PS 4</td>
+            <td>Nintendo</td>
+            <td>C. Nintendo</td>
+            <td>PS 6</td>
+            <td>esqueci</td>
+        </tr>
+        <tr class="preco">
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+        </tr>
+        <tr>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+        </tr>
+    </table>
+
+    <br><br>
+    <nav class="navAposBanner">
+        <h2>
+            Diversos
+        </h2>
+        <h4>
+            <a class="verProduto" href="../detalhes/detalhe1.html" >Ver todos ➜</a>
+        </h4>
+    </nav>
+
+    <!--
+        aqui vai ficar os itens de diversos
+    -->
+
+    <table> 
+        <th><img src="../imagens/Diversos/1.png" alt=""></th>
+        <th><img src="../imagens/Diversos/2.png" alt=""></th>
+        <th><img src="../imagens/Diversos/3.png" alt=""></th>
+        <th><img src="../imagens/Diversos/4.png" alt=""></th>
+        <th><img src="../imagens/Diversos/5.png" alt=""></th>
+        <th><img src="../imagens/Diversos/6.png" alt=""></th>
+        <tr class="nomes">
+            <td>default</td>
+            <td>C. gamer</td>
+            <td>Sonic</td>
+            <td>teclado</td>
+            <td>Óculos VR</td>
+            <td>Pikão Chu</td>
+        </tr>
+        <tr class="preco">
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+            <td>$ 60,00</td>
+        </tr>
+        <tr>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+            <td><a class="verProduto" href="../detalhes/detalhe1.html" >Ver produto</a></td>
+        </tr>
+    </table>
+
+    <!--
+        aqui vai ficar a parte da logo da itatech com o background azul
+        tendo alguns parágrafos e inputs, depois vem o footer
+    -->
+
+    <div class="final">
+        <img class="logo2" src="../imagens/main/2.png" alt="logoItatech">
+
+        <p class="textStart" id="my-first">Quem somos <span class="faleConosco"><strong>Fale Conosco</strong></span> </p>
+        
+        <p class="textStart">Política
+            <input class="input2" type="text" placeholder="Nome">
+        <br>de privacidade</p>
+        <br>
+        <p class="textStart">Programa de fidelidade
+            <input class="input3" type="text" placeholder="Escreva uma mensagem">
+        </p>
+        <p class="textStart">Novas tendências</p>
+        <p class="textStart">Quero ser franquiciado
+            <button class="EnviarMensagem" type="button" onclick="alert('Estou aprendendo!');">
+                <p class="EnviarMensagemText">Enviar Mensagem</p>
+            </button>
+        </p>
+        <p class="textStart">Anúncie aqui</p>
+    </div>
+
+    <div class="efeito1"></div>
+
+    <footer>
+    <p>Desenvolvido por: Verenilson da Silva Souza</p>
+    </footer>
+    <p class="ano2022">2022</p>
+
+    <div class="efeito2"></div>
+
+</body>
+</html>

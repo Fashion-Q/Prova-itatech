@@ -1,0 +1,43 @@
+.divMain{
+    margin: 0;
+    padding: 40px 0px;
+    background-color: rgb(235, 233, 233);
+}
+
+.marginWH{
+    margin: 10px 0px;
+}
+
+.sessao{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px red, 2px 2px 1px green;
+}
+
+.logar{
+    display: flex;
+    justify-content: center;
+}
+
+.bLogin{
+    background-color:dodgerblue;
+    color: white;
+}
+
+.bLogin:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.widhtHeight{
+    width: 350px;
+    height: 40px;
+}
+
+.sizeTexto{
+    font-size: 20px;
+}

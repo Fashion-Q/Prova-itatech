@@ -1,0 +1,52 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.divTopo{
+    display: flex;
+    width: 100%;
+}
+
+.logo1{
+    padding: 0;
+    margin: 45px 100px;
+    padding: 0px 0px 0px 0px;
+}
+
+.buscar{
+    width: 350px;
+    height: 40px;
+    margin-top: 45px;
+    padding: 0;
+    background-color: rgba(231, 227, 227, 0.3);
+    border: 1px solid rgba(231, 227, 227, 0.3); 
+    border-radius: 25px;
+}
+
+.login{
+    width: 170px;
+    height: 50px;
+    margin: 40px 0px 0px 250px;
+    padding: 0;
+    background-color: white;
+    border: 1px solid dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.login:hover{
+    background-color: rgb(219, 213, 213);
+    cursor:pointer;
+}
+
+.loginText{
+    color:blue;
+    font-size: 18px;
+    font-family: 'Lato', Times, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}

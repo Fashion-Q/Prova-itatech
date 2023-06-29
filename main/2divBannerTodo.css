@@ -1,0 +1,40 @@
+.bannerTodo{
+    background-image: url(../imagens/main/1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 350px;
+}
+
+.textoBanner{
+    color: white;
+}
+
+.s1Banner{
+    font-size: 390%;
+}
+
+.s2Banner{
+    font-size: 165%;
+}
+
+.VerConsoles{
+    background-color:dodgerblue;
+}
+
+.VerConsoles:hover{
+    background-color: #333;
+    cursor:pointer;
+}
+
+.VerConsolesText{
+    padding: 0px 10px;
+    color: rgba(255, 255, 255, 0.747);
+}
+
+.locThings{
+    position: relative;
+    left: 140px;
+    top: 140px;
+}

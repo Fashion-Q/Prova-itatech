@@ -1,0 +1,68 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.final{
+    background-color: #eaf2fd;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.logo2{
+    position: absolute;
+    margin: 50px 110px;
+}
+
+.textStart{
+    margin-inline-start: 350px;
+}
+
+#my-first{
+    padding-top: 60px;
+}
+
+.faleConosco{
+    margin-left: 220px;
+    position: relative;
+}
+
+.input2{
+    position: absolute;
+    height: 45px;
+    width: 450px;
+    margin-left: 250px;
+}
+
+.input3{
+    position: absolute;
+    height: 50px;
+    width: 450px;
+    margin-left: 150px;
+}
+
+.EnviarMensagem{
+    background-color:dodgerblue;
+    margin-left: 147px;
+}
+
+.EnviarMensagem:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.EnviarMensagemText{
+    padding: 0px 10px;
+    color: rgba(255, 255, 255, 0.747);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+.ano2022{
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}

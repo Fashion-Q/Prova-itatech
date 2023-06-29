@@ -1,0 +1,23 @@
+table{
+    display: flex;
+    justify-content: center;
+}
+
+.navAposBanner{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 125px;
+}
+
+.verProduto{
+    color: rgb(0, 162, 255);
+}
+
+.preco{
+    font-weight: bold;
+}
+
+.nomes{
+    font-family:monospace;
+    font-size: 20px;
+}

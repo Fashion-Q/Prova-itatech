@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+}
+.mid{
+    background-color: rgb(235, 233, 233);
+}
+
+.XYZ{
+    display: flex;
+    margin: 40px 0px 0px 60px;
+    padding: 40px 0px 40px 0px;
+}
+
+.whiteVader{
+    font-family:monospace;
+    margin-left: 60px;
+    font-size: 50px;
+    display: block;
+}
+
+.custo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.descricao{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.produtosSimilares{
+    font-weight: normal;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.nome{
+    padding: 0;
+    margin: 4px 0px 4px 0px;
+}
+
+.preco{
+    font-weight: bold;
+}
+
+.box{
+    margin: 8px;
+}
+
+.outrosProdutos{
+    display: flex;
+    justify-content: center;
+}
